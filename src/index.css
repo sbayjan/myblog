@@ -1,13 +1,106 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Mono:300,400,500,700');
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Red Hat Mono", monospace;
+  color: rgb(231, 223, 223);
+  background-color: rgb(28, 26, 32);
 }
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(99, 88, 88);
+}
+.navbar h1{
+  color: lightcoral
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color:lightcoral;
+}
+.content {
+  padding: 20px;
+  max-width: 600px;
+  margin: 40px auto;
+}
+/*  blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid rgb(97, 81, 81);
+}
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
+}
+.blog-preview h2{
+  font-size: 20px;
+  color: lightcoral;
+  margin-bottom: 8px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: lightcoral;
+  margin-bottom: 8px;
+}
+.blog-details div{
+  margin: 20px 0;
+}
+.blog-details button{
+  background: lightcoral;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.blog-details button{
+  background: lightcoral;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 0;
+}
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: lightcoral;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  padding: 6px 10px;
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: lightcoral;
+  border: 0;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }

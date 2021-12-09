@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "My First Blog",
+      "body": "This is my first blog lorem impsum dolor sit ametsdfk ksduhfkajshd asdkfgaskdjfgasdf sdkfjhasdkfj",
+      "author": "John Doe",
+      "id": 1
+    },
+    {
+      "title": "My Second Blog",
+      "body": "This is my second blog lorem impsum dolor sit ametsdfk ksduhfkajshd asdkfgaskdjfgasdf sdkfjhasdkfj",
+      "author": "Jane Doe",
+      "id": 2
+    },
+    {
+      "title": "Salam kacok",
+      "body": "dkfjasfh kjasdhakj lak;sdjvlkaj \nasdflaksjdfjalks akdjv dkjfhvkdj hdfkjh kdjh kjhadkvjahsvakjch kjshc kjdhvakjvhakj. aksdjhaksjdv",
+      "author": "john",
+      "id": 5
+    },
+    {
+      "title": "Salam aleykum",
+      "body": "ksdfsdkjghakjgh \nsdfkajsdhfasdf\nsdfaskdljfsdsdkgjak j \nadsgkajsdhgakj hadkjbahbkaj kj had\nadkjadhkadfjhkj h \nadfbkajdfbhakdjh k jhk jhdfkj kjsfh dfa\nadfbkjadfbkajdfhkajdfhgkajgkadjfhgkadfjghakdjghadf\nadfakdjfgkadfhgkh",
+      "author": "dave",
+      "id": 6
+    }
+  ]
+}
